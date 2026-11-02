@@ -1,0 +1,19 @@
+
+:root{--navy:#071b33;--navy2:#0b2a4d;--blue:#0878d1;--cyan:#21b7d7;--yellow:#ffc928;--ink:#172536;--muted:#687789;--light:#f3f7fb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.65}
+.navbar{background:rgba(5,22,42,.97);box-shadow:0 8px 25px #00152a22}.navbar-brand{font-weight:800;letter-spacing:.2px}.brand-mark{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:11px;background:var(--yellow);color:var(--navy);margin-right:9px}
+.nav-link{color:#e7f1fa!important;font-weight:600}.nav-link:hover{color:var(--yellow)!important}
+.btn-electric{background:var(--yellow);color:var(--navy);border:0;font-weight:800;border-radius:9px;padding:12px 21px}.btn-electric:hover{background:#ffdc69;color:var(--navy);transform:translateY(-1px)}
+.btn-outline-light{border-radius:9px;font-weight:700;padding:11px 20px}
+.hero{background:linear-gradient(105deg,rgba(4,20,39,.97) 0%,rgba(5,33,61,.88) 48%,rgba(5,33,61,.38) 100%),url('assets/eletricista-painel-1.jpg') center/cover;min-height:650px;display:flex;align-items:center;color:white;padding:130px 0 90px}
+.eyebrow{color:var(--yellow);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}.hero h1{font-size:clamp(2.5rem,5vw,4.5rem);font-weight:850;line-height:1.08;max-width:760px}.hero p{color:#d9e7f5;font-size:1.12rem;max-width:610px}
+.section-pad{padding:88px 0}.section-kicker{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:1.7px;font-size:.76rem}.section-title{font-weight:850;color:var(--navy);letter-spacing:-.7px}.section-lead{color:var(--muted);max-width:680px}
+.service-card,.feature-card{height:100%;background:#fff;border:1px solid #e6edf4;border-radius:16px;padding:27px;box-shadow:0 12px 34px #09294a0a;transition:.2s}.service-card:hover,.feature-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #09294a14}
+.icon-box{width:54px;height:54px;display:grid;place-items:center;border-radius:14px;background:#e7f4ff;color:var(--blue);font-size:1.45rem;margin-bottom:18px}
+.photo-card{border-radius:18px;overflow:hidden;box-shadow:0 18px 45px #061d3520}.photo-card img{width:100%;height:260px;object-fit:cover;transition:transform .4s}.photo-card:hover img{transform:scale(1.035)}
+.band{background:linear-gradient(110deg,var(--navy),var(--navy2));color:white;border-radius:22px;padding:42px}.band p{color:#d1e0ee}
+.contact-section{background:var(--light)}.contact-card{background:#fff;border-radius:15px;padding:23px;height:100%;border:1px solid #e6edf4}.contact-card i{color:var(--blue);font-size:1.35rem}
+footer{background:#041426;color:#c5d3e0;padding:55px 0 22px}footer h5{color:#fff;font-weight:800}footer a{color:#d9e7f5;text-decoration:none}footer a:hover{color:var(--yellow)}.footer-bottom{border-top:1px solid #ffffff20;margin-top:32px;padding-top:18px;color:#9fb0c1;font-size:.88rem}
+.whatsapp-float{position:fixed;right:20px;bottom:20px;z-index:1000;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#19b65b;color:white;font-size:1.8rem;box-shadow:0 8px 25px #0003;text-decoration:none}.whatsapp-float:hover{color:white;background:#109a49}
+.inner-hero{background:linear-gradient(120deg,var(--navy),var(--navy2));color:white;padding:145px 0 55px}.legal-content{max-width:900px}.legal-content h2{font-weight:800;color:var(--navy);margin-top:34px;font-size:1.35rem}.legal-content p,.legal-content li{color:#536477}
+@media(max-width:767px){.hero{min-height:600px;padding-top:120px}.section-pad{padding:65px 0}.band{padding:28px}.navbar-brand{font-size:.95rem}}
